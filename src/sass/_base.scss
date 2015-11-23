@@ -1,0 +1,48 @@
+
+
+// Dow Corporate Colors
+
+$base-color: #FFF;
+$red: #E80033;
+$yellow: #FDBB30;
+$blood: #8C1717;
+$orange: #ED8B00;
+$dk-orange: #F15D22;
+$dk-red: #BF0D3E;
+$purple: #910048;
+$magenta: #D0006F;
+$black25: #E6E6E6;
+$black50: #BFBFBF;
+$black75: #808080;
+$black: #000; 
+$brand-color: #E80033;
+$accent-color: $yellow;
+
+// Dow Typography Standards
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+h1 {
+	color: $brand-color;
+	font-size: 24px;
+}
+h2 {
+	color: $accent-color;
+	font-size: 18px;
+}
+p {
+	font-family: Arial, sans-serif;	
+	font-size: 13px;
+	line-height: 120%;
+}
+a:hover {
+	color: #e80033;
+	text-decoration: none;	
+}
+
+
+

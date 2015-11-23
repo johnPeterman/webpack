@@ -1,0 +1,59 @@
+@import "_base"; // Dow Brand Standards & Imports
+
+//===================//
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.brand-band {
+	background: $brand-color;
+	height: 5px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.emphasis {
+	color: $dk-orange;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.blockquote {
+
+}
+.box {
+	font-size: 1.25em;
+	width: 250px;
+	height: 250px;
+	border: 4px solid #000;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	padding: 15px;
+	float: left;
+}
+.purple-box {
+	@extend .box;
+	color: #FFF;
+	background: $purple;
+}
+.red-box {
+	@extend .box;
+	color: #FFF;
+	background: $red;
+}
+.yellow-box {
+	@extend .box;
+	color: #000;
+	background: $yellow;
+}
+
+.blood-box {
+	@extend .box;
+	color: #000;
+	background: $blood;
+}
+.blueBox {
+	@extend .box;
+	width: 400px;
+	height: 100px;
+	background: blue;
+}
