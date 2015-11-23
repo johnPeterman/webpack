@@ -1,4 +1,10 @@
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+body{
+	background-color:#000;
+	correct: a;
+}h1{
+	color:green;
+	correct:b;
+}h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
@@ -91,11 +97,4 @@ a:hover {
   background: blue; }
 
 body {
-  background: #fefefe; }
-body{
-	background-color:#8c1717;
-	correct: a;
-}h1{
-	color:green;
-	correct:b;
-}
+  background: #ccc; }

@@ -3,14 +3,14 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
     entry: {
-        a: "./src/entry.js",
-        b: "./src/entry2.js"
+        "styles": "./src/entry.js",
+        "javascript": "./src/entry2.js"
     },
     output: {
         filename: "[name].js",
         chunkFilename: "[name].js",
-        path: __dirname + "/public/dist",
-        publicPath: "/public/dist/"
+        path: __dirname + "/public/dist/js",
+        publicPath: "/public/dist/js/"
     },
     module: {
         loaders: [{
@@ -22,7 +22,7 @@ module.exports = {
         }]
     },
     plugins: [
-        new ExtractTextPlugin("css/[name].css", {
+        new ExtractTextPlugin("../css/main.css", {
             disable: false,
             allChunks: true
         }),
