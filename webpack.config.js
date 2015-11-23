@@ -14,11 +14,14 @@ module.exports = {
     },
     module: {
         loaders: [{
+            test: /\.scss$/,
+            loader: ExtractTextPlugin.extract("style-loader", "css-loader!sass-loader")
+        }, {
             test: /\.css$/,
-            loader: ExtractTextPlugin.extract("style-loader","css-loader")
+            loader: ExtractTextPlugin.extract("style-loader", "css-loader")
         }]
     },
-   plugins: [
+    plugins: [
         new ExtractTextPlugin("css/[name].css", {
             disable: false,
             allChunks: true
