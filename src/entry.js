@@ -1,3 +1,3 @@
-require("!style!css!sass!./sass/style.scss");
-require("!style!css!./css/main.css")
-require("./js/content.js");
+//require("!style!css!sass!./sass/style.scss");
+require("./css/main.css");
+require("./css/main2.css");
